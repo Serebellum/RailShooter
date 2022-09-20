@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 221344901322126084}
   - component: {fileID: 229713256587517750}
   - component: {fileID: 4478781230870951762}
+  - component: {fileID: 4498555930087826342}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -142,6 +143,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5108ec0b3ef99164f9a4f4b9cfe2ab74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 10
+  xRange: 5
+  yRange: 3
+  positionPitchFactor: -2
+  controlPitchFactor: 4
+  controlPitchRange: -15
+  positionYawFactor: -4
+  controlRollFactor: 4
+  rollRange: -15
+--- !u!114 &4498555930087826342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243489806391712124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987c33a67f8243849ac8a64f69d6b6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveComposite: {x: 0, y: 0}
 --- !u!1 &772712787251074046
 GameObject:
   m_ObjectHideFlags: 0
